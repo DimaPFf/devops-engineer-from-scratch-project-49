@@ -1,8 +1,7 @@
 import random
+from math import isqrt
 
 import prompt
-
-from math import isqrt
 
 from brain_games.cli import welcome_user
 from brain_games.cli_game import game_procces
@@ -21,7 +20,7 @@ def game():
     number = random.randint(0, 1000)
     print(f'Question: {number}')
     answer = prompt.string('Your answer: ').strip()
-    correct_answer =  "yes" if is_prime_number(number) else "no"
+    correct_answer = "yes" if is_prime_number(number) else "no"
     return [answer, str(correct_answer)]
 
 
