@@ -5,7 +5,6 @@ import prompt
 from brain_games.cli import welcome_user
 
 GAME_COUNT = 3
-MIN_COUNT_OF_WIN = 2
 
 
 def main():
@@ -25,10 +24,9 @@ def main():
                 f'"{answer}" is wrong answer ;(. '
                 f'Correct answer was "{correct_answer}".'
             )
-    if correct_answer_count > MIN_COUNT_OF_WIN:
-        print(f"Congratulations, {name}!")
-    else:
-        print(f"Let's try again, {name}!")
+            print(f"Let's try again, {name}!")
+            return
+    print(f"Congratulations, {name}!")
 
 
 if __name__ == '__main__':
