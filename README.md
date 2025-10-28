@@ -8,5 +8,6 @@
 
 [![asciicast](https://asciinema.org/a/WCZaUYZye1uBhKPTDQ4orMoad.svg)](https://asciinema.org/a/WCZaUYZye1uBhKPTDQ4orMoad)
 
-
 ### Brain-calc
+
+[![asciicast](https://asciinema.org/a/q6VyilArep40OFVJMahh6CbiV.svg)](https://asciinema.org/a/q6VyilArep40OFVJMahh6CbiV)
