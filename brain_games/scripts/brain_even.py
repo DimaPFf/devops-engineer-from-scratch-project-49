@@ -1,9 +1,12 @@
-import prompt
 import random
+
+import prompt
+
 from brain_games.cli import welcome_user
 
 GAME_COUNT = 3
 MIN_COUNT_OF_WIN = 2
+
 
 def main():
     name = welcome_user()
@@ -17,15 +20,16 @@ def main():
         if answer == correct_answer:
             correct_answer_count += 1
             print('Correct!')
-        elif answer == correct_answer:
-            correct_answer_count += 1
-            print('Correct!')
         else:
-            print(f'"{answer}" is wrong answer ;(. Correct answer was "{correct_answer}".')
-    if correct_answer_count > MIN_COUNT_OF_WIN: 
+            print(
+                f'"{answer}" is wrong answer ;(. '
+                f'Correct answer was "{correct_answer}".'
+            )
+    if correct_answer_count > MIN_COUNT_OF_WIN:
         print(f"Congratulations, {name}!")
     else:
         print(f"Let's try again, {name}!")
+
 
 if __name__ == '__main__':
     main()
