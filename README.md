@@ -20,6 +20,7 @@ This project was built using these tools:
 
 ```bash
 make install
+```
 
 ### Brain-even
 
