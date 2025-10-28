@@ -4,6 +4,7 @@ import prompt
 
 from brain_games.cli import welcome_user
 from brain_games.cli_game import game_procces
+from brain_games.constants import MAX_NUMBER, MIN_NUMBER
 
 
 def find_nod(num_1, num_2):
@@ -13,8 +14,8 @@ def find_nod(num_1, num_2):
 
 
 def game():
-    num_1 = random.randint(1, 100)
-    num_2 = random.randint(1, 100)
+    num_1 = random.randint(MIN_NUMBER, MAX_NUMBER)
+    num_2 = random.randint(MIN_NUMBER, MAX_NUMBER)
     print(f'Question: {num_1} {num_2}')
     answer = prompt.string('Your answer: ').strip()
     correct_answer = find_nod(num_1, num_2)

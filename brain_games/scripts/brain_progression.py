@@ -4,12 +4,20 @@ import prompt
 
 from brain_games.cli import welcome_user
 from brain_games.cli_game import game_procces
+from brain_games.constants import (
+    MAX_LENGT_PROGRESSIVE,
+    MAX_NUMBER,
+    MAX_STEP,
+    MIN_LENGT_PROGRESSIVE,
+    MIN_NUMBER,
+    MIN_STEP,
+)
 
 
 def make_progression():
-    start = random.randint(1, 100)
-    length = random.randint(5, 10)
-    step = random.randint(1, 10)
+    start = random.randint(MIN_NUMBER, MAX_NUMBER)
+    length = random.randint(MIN_LENGT_PROGRESSIVE, MAX_LENGT_PROGRESSIVE)
+    step = random.randint(MIN_STEP, MAX_STEP)
     nums = []
     for i in range(length):
         num = start + i * step 

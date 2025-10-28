@@ -4,15 +4,14 @@ import prompt
 
 from brain_games.cli import welcome_user
 from brain_games.cli_game import game_procces
-
-GAME_COUNT = 3
+from brain_games.constants import EVEN_NUMBER, MAX_NUMBER, MIN_NUMBER
 
 
 def game():
-    num = random.randint(1, 100)
+    num = random.randint(MIN_NUMBER, MAX_NUMBER)
     print(f'Question: {num}')
     answer = prompt.string('Your answer: ')
-    correct_answer = 'yes' if num % 2 == 0 else 'no'
+    correct_answer = 'yes' if num % EVEN_NUMBER == 0 else 'no'
     return [answer, correct_answer]
 
 

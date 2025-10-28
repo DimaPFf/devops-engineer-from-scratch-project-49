@@ -5,6 +5,7 @@ import prompt
 
 from brain_games.cli import welcome_user
 from brain_games.cli_game import game_procces
+from brain_games.constants import MAX_NUMBER
 
 
 def is_prime_number(number):
@@ -17,7 +18,7 @@ def is_prime_number(number):
 
 
 def game():
-    number = random.randint(0, 1000)
+    number = random.randint(0, MAX_NUMBER)
     print(f'Question: {number}')
     answer = prompt.string('Your answer: ').strip()
     correct_answer = "yes" if is_prime_number(number) else "no"

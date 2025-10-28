@@ -1,5 +1,7 @@
+from brain_games.constants import GAME_COUNT
+
+
 def game_procces(game_cb, user_name):
-    GAME_COUNT = 3
     for i in range(GAME_COUNT):
         [answer, correct_answer] = game_cb()
         if answer == correct_answer:
