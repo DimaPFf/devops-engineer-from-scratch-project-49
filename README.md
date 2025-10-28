@@ -4,6 +4,23 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=DimaPFf_devops-engineer-from-scratch-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=DimaPFf_devops-engineer-from-scratch-project-49)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=DimaPFf_devops-engineer-from-scratch-project-49&metric=coverage)](https://sonarcloud.io/summary/new_code?id=DimaPFf_devops-engineer-from-scratch-project-49)
 
+
+### Links
+
+This project was built using these tools:
+
+| Tool                                                                   | Description                                             |
+|------------------------------------------------------------------------|---------------------------------------------------------|
+| [uv](https://docs.astral.sh/uv/)                                       | "An extremely fast Python package and project manager, written in Rust" |
+| [ruff](https://docs.astral.sh/ruff/)                                   | "An extremely fast Python linter and code formatter, written in Rust" |
+
+---
+
+### Setup
+
+```bash
+make install
+
 ### Brain-even
 
 [![asciicast](https://asciinema.org/a/WCZaUYZye1uBhKPTDQ4orMoad.svg)](https://asciinema.org/a/WCZaUYZye1uBhKPTDQ4orMoad)
