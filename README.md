@@ -6,4 +6,4 @@
 
 ### Brain-even
 
-[![asciicast](https://asciinema.org/a/nNk4JLut56upbiAIeO3SoraSk.svg)](https://asciinema.org/a/nNk4JLut56upbiAIeO3SoraSk)
+[![asciicast](https://asciinema.org/a/WCZaUYZye1uBhKPTDQ4orMoad.svg)](https://asciinema.org/a/WCZaUYZye1uBhKPTDQ4orMoad)
