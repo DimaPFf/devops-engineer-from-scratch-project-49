@@ -4,7 +4,6 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=DimaPFf_devops-engineer-from-scratch-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=DimaPFf_devops-engineer-from-scratch-project-49)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=DimaPFf_devops-engineer-from-scratch-project-49&metric=coverage)](https://sonarcloud.io/summary/new_code?id=DimaPFf_devops-engineer-from-scratch-project-49)
 
-
 ### Links
 
 This project was built using these tools:
@@ -20,6 +19,24 @@ This project was built using these tools:
 
 ```bash
 make install
+```
+
+### Run
+
+Start the CLI that asks you to choose a game:
+
+```bash
+make brain-games
+```
+
+You can also run a specific game directly via `uv run`:
+
+```bash
+uv run brain-even
+uv run brain-calc
+uv run brain-gcd
+uv run brain-progression
+uv run brain-prime
 ```
 
 ### Brain-even
