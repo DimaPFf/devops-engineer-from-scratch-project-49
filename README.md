@@ -29,14 +29,14 @@ Start the CLI that asks you to choose a game:
 make brain-games
 ```
 
-You can also run a specific game directly via `uv run`:
+You can also run a specific game directly via:
 
 ```bash
-uv run brain-even
-uv run brain-calc
-uv run brain-gcd
-uv run brain-progression
-uv run brain-prime
+brain-even
+brain-calc
+brain-gcd
+brain-progression
+brain-prime
 ```
 
 ### Brain-even
